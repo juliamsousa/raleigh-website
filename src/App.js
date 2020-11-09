@@ -1,15 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import Header from './components/Header'
-import Main from './components/Main'
-import Footer from './components/Footer'
+import Header from './components/header/Header'
+import About from './components/about/About'
+import Content from './components/content/Content'
+import Products from './components/products/Products'
+import Gallery from './components/gallery/Gallery'
+import Contact from './components/contact/Contact'
+import Footer from './components/footer/Footer'
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
      <Header/>
-     <Main/>
+     <About />
+     <Content />
+     <Products />
+     <Gallery />
+     <Contact />
      <Footer/>
     </div>
   );
