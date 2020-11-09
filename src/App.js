@@ -1,4 +1,6 @@
 import React from 'react';
+
+// importacao dos componentes da pagina 
 import Header from './components/header/Header'
 import About from './components/about/About'
 import Content from './components/content/Content'

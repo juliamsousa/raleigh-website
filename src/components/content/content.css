@@ -1,0 +1,143 @@
+/* ESTILIZACAO CONTEUDO */
+/*--------------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+  
+body #div-slider {
+      font-family: 'Amatic SC';
+      background: #8E0E08;
+      width: auto;
+      height: 85vh;
+      color: #DBDAD2;
+      padding: 4%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+  }
+  
+  body #div-slider .titulos {
+      font-size: 2.2rem;
+  }
+  
+  body #div-slider .slides-front {
+      padding: 0;
+      width: 980px;
+      height: 370px;
+      display: block;
+      margin: auto;
+      position: relative;
+      margin-top: 30px;
+  }
+  
+  body #div-slider .slides-front * {
+      user-select: none;
+      -ms-user-select: none;
+      -moz-user-select: none;
+      -khtml-user-select: none;
+      -webkit-user-select: none;
+      -webkit-touch-callout: none;
+  }
+  
+  body #div-slider .slides-front input {
+      display: none;
+  }
+  
+  body #div-slider .slide-container {
+      display: block;
+  }
+  
+  body #div-slider .slide {
+      top: 0;
+      opacity: 0;
+      width: 980px;
+      height: 300px;
+      display: block;
+      position: absolute;
+      transform: scale(0);
+      transition: all .7s ease-in-out 0.1s;
+  }
+  
+  body #div-slider .slide iframe {
+      /* -----------*/
+      border-style: solid;
+      padding: 4%;
+      border: 5px solid;
+      border-color: #DBDAD2;
+  }
+  
+  body #div-slider .nav label {
+      width: 150px;
+      height: 100%;
+      display: none;
+      position: absolute;
+      opacity: 0;
+      z-index: 9;
+      cursor: pointer;
+      transition: opacity .2s;
+      color: #DBDAD2;
+      font-size: 56pt;
+      text-align: center;
+      line-height: 380px;
+      font-family: "Varela Round", sans-serif;
+      background-color: rgba(255, 255, 255, .3);
+      text-shadow: 0px 0px 15px rgb(119, 119, 119);
+  }
+  
+  body #div-slider .slide:hover+.nav label {
+      opacity: 0.5;
+  }
+  
+  body #div-slider .nav label:hover {
+      opacity: 1;
+  }
+  
+  body #div-slider .nav .next {
+      right: 0;
+      height: 0px;
+  }
+  
+  body #div-slider .nav .prev {
+      height: 0px;
+  }
+  
+  body #div-slider input:checked+.slide-container .slide {
+      opacity: 1;
+      transform: scale(1);
+      transition: opacity 1s ease-in-out 0.1s;
+  }
+  
+  body #div-slider input:checked+.slide-container .nav label {
+      display: block;
+  }
+  
+  body #div-slider .nav-dots {
+      width: 100%;
+      bottom: 9px;
+      height: 11px;
+      display: block;
+      position: relative;
+      text-align: center;
+      padding-top: 30px;
+  }
+  
+  body #div-slider .nav-dots .nav-dot {
+      top: 400px;
+      width: 11px;
+      height: 11px;
+      margin: 0 4px;
+      position: relative;
+      border-radius: 100%;
+      display: inline-block;
+      background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  body #div-slider .nav-dots .nav-dot:hover {
+      cursor: pointer;
+      background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  body #div-slider input#img-1:checked~.nav-dots label#img-dot-1,
+  input#img-2:checked~.nav-dots label#img-dot-2,
+  input#img-3:checked~.nav-dots label#img-dot-3
+  {
+      background: rgba(0, 0, 0, 0.8);
+  }

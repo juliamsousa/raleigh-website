@@ -1,4 +1,5 @@
 import React from 'react';
+
 import r19 from '../../assets/640X640/R19.jpg';
 import r15 from '../../assets/640X640/R15.jpg';
 import r18 from '../../assets/640X640/R18.jpg';
@@ -7,6 +8,8 @@ import r13 from '../../assets/640X640/R13.jpg';
 import r14 from '../../assets/640X640/R14.jpg';
 import r20 from '../../assets/640X640/R20.jpg';
 import r24 from '../../assets/640X640/R24.jpg';
+
+import './gallery.css'
 
 export default function Gallery() {
 

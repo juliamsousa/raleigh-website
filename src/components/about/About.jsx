@@ -1,4 +1,5 @@
 import React from 'react';
+import './about.css';
 import r17 from '../../assets/640X640/R17.jpg';
 
 export default function About() {

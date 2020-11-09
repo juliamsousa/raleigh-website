@@ -1,0 +1,43 @@
+/* ESTILIZACAO GALERIA */
+/*--------------------------------*/
+
+body #gallery {
+    background: #DD9F80;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  
+  body #gallery .galeriaTitulo h1 {
+    font-family: 'Amatic SC';
+    color: #DBDAD2;
+    padding: 4%;
+    justify-self: left;
+    width: 60%;
+    font-size: 3rem;
+    background: #DD9F80;
+  }
+  
+  body #gallery .listaGaleria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-self: center;
+    width: 75%;
+    border-style: solid;
+    padding: 2%;
+    border: 5px solid;
+    border-color: #DBDAD2;
+    justify-items: center;
+    list-style-type: none;
+    margin-bottom: 4%;
+  }
+  
+  body #gallery .listaGaleria .itemGaleria {
+    padding: 8%;
+  }
+  
+  body #gallery .listaGaleria img {
+    width: 100%;
+    height: 100%;
+  }

@@ -1,4 +1,5 @@
 import React from 'react';
+import './products.css';
 import blick from '../../assets/icones/blick.png';
 
 export default function Products() {

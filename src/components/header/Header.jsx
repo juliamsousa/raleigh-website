@@ -1,4 +1,7 @@
 import React from 'react';
+
+import "./header.css"
+
 import logo from '../../assets/icones/logo.png';
 import logoFacebook from '../../assets/icones/facebook.png';
 import logoPatreon from '../../assets/icones/patreon.png';
