@@ -16,12 +16,28 @@ export default function Products() {
                         </div>
 
                         <div className="subtituloProdutos">
-                            <p><i className="em em-fire" aria-role="presentation" aria-label="FIRE"></i> NOSSA NOVA LINHA ESTÁ DISPONÍVEL, CONFIRA! <i className="em em-fire" aria-role="presentation" aria-label="FIRE"></i></p>
+                            <p>
+                                <i 
+                                    className="em em-fire" 
+                                    aria-role="presentation" 
+                                    aria-label="FIRE">
+                                </i> 
+                                NOSSA NOVA LINHA ESTÁ DISPONÍVEL, CONFIRA! TESTE AQUI 
+                                <i 
+                                    className="em em-fire" 
+                                    aria-role="presentation"
+                                    aria-label="FIRE">
+                                </i>
+                            </p>
                         </div>
                     </div>
 
                     <div className="products">
-                        <a href="https://teespring.com/stores/raleighlink" target="_blank"><img src={blick}></img></a>
+                        <a 
+                            href="https://teespring.com/stores/raleighlink" 
+                            target="_blank">
+                                <img src={blick}></img>
+                        </a>
                     </div>
                 </div>
             </section>
