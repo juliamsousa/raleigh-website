@@ -3,7 +3,7 @@
 
 ## Descrição 📜
 
-Este projeto foi criado durante a capacitação da Voluta Soluções Digitais utilizando React JS, CSS e Javascript. Atualmente, apenas o frontend da aplicação foi desenvolvido. Confira o site, que está hospedado no Netlify: https://juliams-raleigh-lilith.netlify.app/
+Este projeto foi criado durante a capacitação da Voluta Soluções Digitais utilizando React JS, CSS e Javascript. Confira a página, que está hospedado no Netlify: https://juliams-raleigh-lilith.netlify.app/
 
 
 ## Sobre 🦄
