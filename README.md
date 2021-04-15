@@ -21,10 +21,4 @@ A página foi criada tendo como inspiração Raleigh Lilith, uma amazona e ativi
 
 * Responsividade
 
-* Backend com envio de email
-
 * Galeria de fotos
-
-
-
-
